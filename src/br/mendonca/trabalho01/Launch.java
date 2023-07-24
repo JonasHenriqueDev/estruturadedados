@@ -1,9 +1,24 @@
 package br.mendonca.trabalho01;
 
+import br.mendonca.trabalho01.estrutura.JonasSantosEstrutura;
+import br.mendonca.trabalho01.tads.JonasSantosTAD;
+
 public class Launch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		JonasSantosTAD tad;
+		JonasSantosEstrutura estrutura = new JonasSantosEstrutura(10);
+
+		for (int i = 0; i < 3; i++) {
+			estrutura.inserirNoFim(new JonasSantosTAD());
+		}
+
+		System.out.println(estrutura.print());
+		System.out.println("-------------------------------------------");
+
+		estrutura.inserirNoInicio(new JonasSantosTAD());
+
+		System.out.println(estrutura.print());
 
 	}
 
