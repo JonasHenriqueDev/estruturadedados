@@ -13,12 +13,7 @@ public class Launch {
 			estrutura.inserirNoFim(new JonasSantosTAD());
 		}
 
-		System.out.println(estrutura.print());
-		System.out.println("-------------------------------------------");
 
-		estrutura.inserirNoInicio(new JonasSantosTAD());
-
-		System.out.println(estrutura.print());
 
 	}
 
