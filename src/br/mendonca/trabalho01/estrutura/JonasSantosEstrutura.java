@@ -58,9 +58,9 @@ public class JonasSantosEstrutura implements ITrabalho01 {
 
     @Override
     public void excluirNoFim() {
-        if (quantidade == 0) return; // Lista vazia, não há nada para excluir
+        if (quantidade == 0) return;
 
-        lista[quantidade - 1] = null; // Marca o último elemento como null para excluir
+        lista[quantidade - 1] = null;
         quantidade--;
     }
 
@@ -77,13 +77,12 @@ public class JonasSantosEstrutura implements ITrabalho01 {
 
     @Override
     public void excluirNoMeio(int posicao) {
-        if (posicao < 0 || posicao >= quantidade) return; // Posição inválida
+        if (posicao < 0 || posicao >= quantidade) return;
 
-        // Desloca todos os elementos após a posição uma posição para a esquerda
         for (int i = posicao; i < quantidade - 1; i++) {
             lista[i] = lista[i + 1];
         }
-        lista[quantidade - 1] = null; // Marca o último elemento como null para excluir
+        lista[quantidade - 1] = null;
         quantidade--;
     }
 
