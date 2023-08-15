@@ -14,12 +14,8 @@ V
 &src/br/mendonca/trabalho01/Launch.java,d\5\d5c9d2e1771451213389f22f5739b1afb5b420d1
 [
 +src/br/mendonca/trabalho01/ITrabalho01.java,f\9\f991dc9f7c10b28f855e9bad3d5bab80788dade1
-n
->src/br/mendonca/trabalho01/estrutura/JonasSantosEstrutura.java,a\3\a3096127c5312a1f8c683f7e2e7e7781bfed8352
 c
 3src/br/mendonca/trabalho02/tads/JonasSantosTAD.java,5\3\530da8ff78ef06ff9c6a5f53364574229896fa82
-o
-?src/br/mendonca/trabalho05/estruturas/JonasSantosEstrutura.java,b\2\b29b33b74dda29a61cd74dd0ae64685d5032a5bf
 V
 &src/br/mendonca/trabalho02/Launch.java,6\5\654849f36277ab1e57be92cc2e3009ec6687fcb1
 T
